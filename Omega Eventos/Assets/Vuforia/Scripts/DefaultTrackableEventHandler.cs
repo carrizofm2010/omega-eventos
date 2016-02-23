@@ -98,6 +98,10 @@ namespace Vuforia
 
         private void OnTrackingLost()
         {
+			mensaje.SetActive (true);
+			animacion.GetComponent<Animation>().Stop ();
+			sonido.GetComponent<AudioSource>().Stop ();
+
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 
@@ -115,9 +119,7 @@ namespace Vuforia
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
 	
-			mensaje.SetActive (true);
-			animacion.GetComponent<Animation>().Stop ();
-			sonido.GetComponent<Animation>().Stop ();
+		
 
         }
 
