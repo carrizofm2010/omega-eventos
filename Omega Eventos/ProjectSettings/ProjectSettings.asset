@@ -85,15 +85,15 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.Ika2.Omega01
-  bundleVersion: 1.0
+  bundleIdentifier: com.ikarodedalos.omegaeventos
+  bundleVersion: 2.0
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
   virtualRealitySupported: 0
   productGUID: 4dcea7ca6b6bc144dbcac68f63471f98
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -150,8 +150,8 @@ PlayerSettings:
   AndroidTargetDevice: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: D:/ikarokeystore.keystore
+  AndroidKeyaliasName: omegakey
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
   androidEnableBanner: 1
